@@ -18,13 +18,13 @@ spring:
         format_sql: true
 
   mail:
-    host: smpt.gmail.com
+    host: smtp.gmail.com
     port: 587
     username: ${SUPPORT_EMAIL}
     password: ${APP_PASSWORD}
     properties:
       mail:
-        smpt:
+        smtp:
           auth: true
           starttls.enable: true
 server:
